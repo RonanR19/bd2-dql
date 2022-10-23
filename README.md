@@ -4,8 +4,8 @@
 
 2) no terminal rodar
 ```bash 
-git clone https://github.com/profjosereginaldo/bd2
-cd bd2
+git clone https://github.com/profjosereginaldo/bd2-dql
+cd bd2-dql
 docker-compose up -d
 ```
 3) clicar open port e digitar 8080
@@ -26,6 +26,5 @@ Password: postgres
 7) no terminal rodar 
 ```bash 
 docker exec -it postgres_container /bin/bash
-cd /backups
-pg_restore -U postgres -d academico 20220905.backup
+psql -U postgres -d academico -f script.sql
 ```
