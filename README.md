@@ -26,5 +26,6 @@ Password: postgres
 7) no terminal rodar 
 ```bash 
 docker exec -it postgres_container /bin/bash
+cd /backups
 psql -U postgres -d academico -f script.sql
 ```
