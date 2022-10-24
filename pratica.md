@@ -2,7 +2,7 @@
 
 1) Encontre o nome dos alunos que tem nome iniciado pela letra C.
 
-2) Encontre o nomes professores que tem as letras EL no nome.
+2) Encontre os nomes professores que tem titulo de PHD.
 
 3) Encontre as salas ocupadas pela disciplina BD I em cada período que foi oferecida.
 
@@ -15,6 +15,7 @@
 7) Liste em ordem alfabética os alunos que tiveram aula da disciplina APC II.
 
 8) Forneça o histórico escolar aluno com id igual a 1, exibindo nome do aluno, nome das disciplinas cursadas em cada período e as faltas e a média obtida em cada disciplina, e ordenada do maior para o menor período.
+
 9) Calcule a quantidade de alunos matriculados na discipina de BD I ministrada pela professora LETICIA.
 
 10) Forneça a maior e a menor média final da turma de APC I do período de 20221.
